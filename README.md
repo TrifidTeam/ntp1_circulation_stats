@@ -18,3 +18,11 @@ pip install ast copy logging multiprocessing urllib3 sys six datetime json mimet
 You will also need `swagger_client` as posted from the Neblio team. The `swagger_client` included is configured to communicate with Mainnet.
 
 Python 3.4+ is recommended for this script.
+
+
+Requirements - ntp1_circulation_stats_simple.py
+---------------------------- 
+This is a simpler, more lightweight version of the program that does not use the swagger_client API library but rather calls the API endpoint directly. All you need for this verison is the ntp1_circulation_stats_simple.py file itself along with the 'json' and 'request' packages which you most likely already have if you run any other python programs. 
+```
+pip install json request
+```
